@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Page styling */
+html{
+	font-size: 16px;
+}
+.blue {
+	color: #3b5bdb;
+}
+html {
+  background-image: url('back6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+   background-repeat:no-repeat;
+  color: white;
+}
+header h1 {
+	font-size: 3rem;
+	text-align: center;
+	font-variant: small-caps;
+	 font-family: 'Roboto', sans-serif;
+	 letter-spacing: 2px;
+	 font-weight: bold;
+	 margin-top: 0.9rem;
+}
+header h2 {
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: 'Bree Serif', serif;
+	margin-top: 0.9rem;	
+	font-style: italic;
+}
+a {
+	color: white;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+#content {
+	font-size: 2rem;
+	margin-top: 5rem;
+	width: 70%;
+	text-align: center;
+	margin: 5rem auto 0 auto;
+	height: 22vh;
+	overflow-y: hidden;
+	font-family: 'Bree Serif', serif;
+	 letter-spacing: 2px;
+	 font-variant: small-caps;
+	 padding-top: 1rem;
+}
+.center {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+.btnStyle {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 4rem;
+}
+button{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	background-color: #ced4da;
+	padding: none;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+.blue {
+	color: #3b5bdb;
+}
+
+@media screen and (max-width: 800px) {
+	#content {
+		width: 85%;
+		height: 50vh;
+		margin-top: 2rem;
+
+	}
+
+}
